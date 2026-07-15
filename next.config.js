@@ -1,15 +1,6 @@
-# dependencies
-node_modules
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
 
-# next.js build output
-.next
-out
-
-# environment variables
-.env
-.env.local
-.env.*.local
-
-# misc
-.DS_Store
-*.log
+module.exports = nextConfig;
